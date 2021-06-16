@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PizzaTime/static/css/main.8ba81271.chunk.css",
+    "main.js": "/PizzaTime/static/js/main.fcbffa81.chunk.js",
+    "main.js.map": "/PizzaTime/static/js/main.fcbffa81.chunk.js.map",
+    "runtime-main.js": "/PizzaTime/static/js/runtime-main.c54efd78.js",
+    "runtime-main.js.map": "/PizzaTime/static/js/runtime-main.c54efd78.js.map",
+    "static/js/2.9a244f41.chunk.js": "/PizzaTime/static/js/2.9a244f41.chunk.js",
+    "static/js/2.9a244f41.chunk.js.map": "/PizzaTime/static/js/2.9a244f41.chunk.js.map",
+    "static/js/3.08015f6a.chunk.js": "/PizzaTime/static/js/3.08015f6a.chunk.js",
+    "static/js/3.08015f6a.chunk.js.map": "/PizzaTime/static/js/3.08015f6a.chunk.js.map",
+    "index.html": "/PizzaTime/index.html",
+    "static/css/main.8ba81271.chunk.css.map": "/PizzaTime/static/css/main.8ba81271.chunk.css.map",
+    "static/js/2.9a244f41.chunk.js.LICENSE.txt": "/PizzaTime/static/js/2.9a244f41.chunk.js.LICENSE.txt",
+    "static/media/Delivery.12bf98f7.png": "/PizzaTime/static/media/Delivery.12bf98f7.png",
+    "static/media/DeliveryIn.c0194ba7.png": "/PizzaTime/static/media/DeliveryIn.c0194ba7.png",
+    "static/media/Happy.ea9f6e93.jpg": "/PizzaTime/static/media/Happy.ea9f6e93.jpg",
+    "static/media/HappyPizza.93705841.jpg": "/PizzaTime/static/media/HappyPizza.93705841.jpg",
+    "static/media/History.b5822ace.jpg": "/PizzaTime/static/media/History.b5822ace.jpg",
+    "static/media/Logo.0e7eedf8.jpg": "/PizzaTime/static/media/Logo.0e7eedf8.jpg",
+    "static/media/Pizza.1bbf483d.jpg": "/PizzaTime/static/media/Pizza.1bbf483d.jpg",
+    "static/media/PizzaBack.54fb1073.jpg": "/PizzaTime/static/media/PizzaBack.54fb1073.jpg",
+    "static/media/Tables.bb1401c6.jpg": "/PizzaTime/static/media/Tables.bb1401c6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c54efd78.js",
+    "static/js/2.9a244f41.chunk.js",
+    "static/css/main.8ba81271.chunk.css",
+    "static/js/main.fcbffa81.chunk.js"
+  ]
+}
