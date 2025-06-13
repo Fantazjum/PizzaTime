@@ -1,0 +1,9 @@
+.select-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ingredient-select {
+    width: 12.5rem;
+    height: 2.25rem;
+}

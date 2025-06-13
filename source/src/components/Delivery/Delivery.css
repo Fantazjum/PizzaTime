@@ -1,0 +1,9 @@
+.delivery {
+    .app-card {
+        >img {
+            width: 100%;
+            height: 25rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

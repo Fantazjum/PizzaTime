@@ -1,55 +1,39 @@
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/firestore';
+import { initializeApp, getApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getFirestore, collection, query, where, getDocs, addDoc, Timestamp } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCvT15B35PgjAzdLJVf-y6ye-F3x-fTYwo",
-    authDomain: "pizzatime-da68e.firebaseapp.com",
-    databaseURL: "https://pizzatime-da68e-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "pizzatime-da68e",
-    storageBucket: "pizzatime-da68e.appspot.com",
-    messagingSenderId: "467921973736",
-    appId: "1:467921973736:web:d274940957268e76ca745d"
-  };
-  
-if (!firebase.apps.length) {
-	firebase.initializeApp(firebaseConfig);
-} else {
-	firebase.app();
-}
+	apiKey: 'AIzaSyCvT15B35PgjAzdLJVf-y6ye-F3x-fTYwo',
+	authDomain: 'pizzatime-da68e.firebaseapp.com',
+	databaseURL: 'https://pizzatime-da68e-default-rtdb.europe-west1.firebasedatabase.app',
+	projectId: 'pizzatime-da68e',
+	storageBucket: 'pizzatime-da68e.appspot.com',
+	messagingSenderId: '467921973736',
+	appId: '1:467921973736:web:d274940957268e76ca745d'
+};
 
-export const auth = firebase.auth();
 
-export const firestore = firebase.firestore();
+initializeApp(firebaseConfig);
+
+export const app = getApp();
+
+export const auth = getAuth(app);
+
+export const firestore = getFirestore(app);
 
 /*--------------------------------------------------------*/
 
-export const addUserData = async (user, userData) => {
-	return firebase.collection("users").doc(user.uid).set({
-		...userData
-	});
-}
-
-export const getUserData = async (user) => {
-	return firestore.collection("users").doc(user.uid).get();
-}
-
-export const updateUserDate = async (user, userData) => {
-	return firestore.collection("users").doc(user.uid).update({
-		...userData
-	});
-}
-
 export const addOrder = (user, orderData) => {
-	firestore.collection("orders").add({
+	return addDoc(collection(firestore, 'orders'), {
 		owner: user.uid,
-		dateCreated: firebase.firestore.FieldValue.serverTimestamp(),
+		dateCreated: Timestamp.fromDate(new Date(Date.now())),
 		orders: orderData.orders,
 		timeStamps: orderData.timeStamps,
 		mod: orderData.mod
 	});
 }
 
-export const getOrders = (user) => {
-	return firestore.collection("orders").where('owner', '==', user.uid).get();
+export const getOrders = async (user) => {
+	const orderQuery = query(query(collection(firestore, 'orders')), where('owner', '==', user.uid));
+	return await getDocs(orderQuery);
 }

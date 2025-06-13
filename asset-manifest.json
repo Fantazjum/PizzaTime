@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/PizzaTime/static/css/main.8ba81271.chunk.css",
-    "main.js": "/PizzaTime/static/js/main.fcbffa81.chunk.js",
-    "main.js.map": "/PizzaTime/static/js/main.fcbffa81.chunk.js.map",
-    "runtime-main.js": "/PizzaTime/static/js/runtime-main.c54efd78.js",
-    "runtime-main.js.map": "/PizzaTime/static/js/runtime-main.c54efd78.js.map",
-    "static/js/2.9a244f41.chunk.js": "/PizzaTime/static/js/2.9a244f41.chunk.js",
-    "static/js/2.9a244f41.chunk.js.map": "/PizzaTime/static/js/2.9a244f41.chunk.js.map",
-    "static/js/3.08015f6a.chunk.js": "/PizzaTime/static/js/3.08015f6a.chunk.js",
-    "static/js/3.08015f6a.chunk.js.map": "/PizzaTime/static/js/3.08015f6a.chunk.js.map",
+    "main.css": "/PizzaTime/static/css/main.79fbff11.css",
+    "main.js": "/PizzaTime/static/js/main.f50cfc90.js",
+    "static/js/453.f33d9648.chunk.js": "/PizzaTime/static/js/453.f33d9648.chunk.js",
+    "static/media/Pizza.jpg": "/PizzaTime/static/media/Pizza.1bbf483d6f7f47050886.jpg",
+    "static/media/PizzaBack.jpg": "/PizzaTime/static/media/PizzaBack.54fb1073454676acb476.jpg",
+    "static/media/Tables.jpg": "/PizzaTime/static/media/Tables.bb1401c620f192e8a3e5.jpg",
+    "static/media/Happy.jpg": "/PizzaTime/static/media/Happy.ea9f6e933e085f82af19.jpg",
+    "static/media/Delivery.png": "/PizzaTime/static/media/Delivery.12bf98f7c31de1390932.png",
+    "static/media/DeliveryIn.png": "/PizzaTime/static/media/DeliveryIn.c0194ba7bd1e11895fd0.png",
+    "static/media/HappyPizza.jpg": "/PizzaTime/static/media/HappyPizza.937058412da93976be6d.jpg",
+    "static/media/Logo.jpg": "/PizzaTime/static/media/Logo.0e7eedf8e115951a70d3.jpg",
+    "static/media/History.jpg": "/PizzaTime/static/media/History.b5822ace20f69bbff4a4.jpg",
     "index.html": "/PizzaTime/index.html",
-    "static/css/main.8ba81271.chunk.css.map": "/PizzaTime/static/css/main.8ba81271.chunk.css.map",
-    "static/js/2.9a244f41.chunk.js.LICENSE.txt": "/PizzaTime/static/js/2.9a244f41.chunk.js.LICENSE.txt",
-    "static/media/Delivery.12bf98f7.png": "/PizzaTime/static/media/Delivery.12bf98f7.png",
-    "static/media/DeliveryIn.c0194ba7.png": "/PizzaTime/static/media/DeliveryIn.c0194ba7.png",
-    "static/media/Happy.ea9f6e93.jpg": "/PizzaTime/static/media/Happy.ea9f6e93.jpg",
-    "static/media/HappyPizza.93705841.jpg": "/PizzaTime/static/media/HappyPizza.93705841.jpg",
-    "static/media/History.b5822ace.jpg": "/PizzaTime/static/media/History.b5822ace.jpg",
-    "static/media/Logo.0e7eedf8.jpg": "/PizzaTime/static/media/Logo.0e7eedf8.jpg",
-    "static/media/Pizza.1bbf483d.jpg": "/PizzaTime/static/media/Pizza.1bbf483d.jpg",
-    "static/media/PizzaBack.54fb1073.jpg": "/PizzaTime/static/media/PizzaBack.54fb1073.jpg",
-    "static/media/Tables.bb1401c6.jpg": "/PizzaTime/static/media/Tables.bb1401c6.jpg"
+    "main.79fbff11.css.map": "/PizzaTime/static/css/main.79fbff11.css.map",
+    "main.f50cfc90.js.map": "/PizzaTime/static/js/main.f50cfc90.js.map",
+    "453.f33d9648.chunk.js.map": "/PizzaTime/static/js/453.f33d9648.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c54efd78.js",
-    "static/js/2.9a244f41.chunk.js",
-    "static/css/main.8ba81271.chunk.css",
-    "static/js/main.fcbffa81.chunk.js"
+    "static/css/main.79fbff11.css",
+    "static/js/main.f50cfc90.js"
   ]
 }

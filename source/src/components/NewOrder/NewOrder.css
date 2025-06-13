@@ -1,0 +1,33 @@
+.select-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.new-order {
+    .app-card {
+        padding-bottom: 3rem;
+
+        >img {
+            width: 100%;
+            height: 15rem;
+        }
+    }
+}
+
+p.pizza {
+    margin: 0.5rem 0 0.25rem;
+}
+
+.order-display {
+    border: 2px solid coral;
+    overflow: hidden;
+    width: 90%;
+    margin: 2px auto 1rem;
+    background-color: cornsilk;
+    padding-top: 0.5rem;
+}
+
+.btn-order {
+    margin: 0.5rem 0;
+}
